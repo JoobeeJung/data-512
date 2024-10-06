@@ -32,7 +32,7 @@ This project is based on a code example developed by Dr. David W. McDonald for u
 
 3. **Monthly Cumulative Data**
    - **Filename:** `rare-disease_monthly_cumulative_201507-202409.json`
-   - **Description:** This file combines the desktop and mobile data into a single cumulative file, summarizing total views per article.
+   - **Description:** This file combines the sum of all mobile, and desktop data into a single cumulative file, summarizing total views per article.
 
 ### Data Schema and Description
 
