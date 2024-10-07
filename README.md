@@ -19,6 +19,8 @@ This project is based on a code example developed by Dr. David W. McDonald for u
 *   https://wikimedia.org/api/rest_v1/#/Pageviews%20data
 *   https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html
 
+### Jupyter Notebook
+To reproduce the results, run the Jupyter notebook `wp_article_views_for_rare_diseases.ipynb`. Ensure that the file path for `'rare-diseases_cleaned.AUG.2024.csv'` is correctly set according to your environment.
 
 ###  Data Files
 
