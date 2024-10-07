@@ -20,7 +20,7 @@ This project is based on a code example developed by Dr. David W. McDonald for u
 *   https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html
 
 
-###  Data Files:
+###  Data Files
 
 1. **Monthly Mobile Access Data**
    - **Filename:** `rare-disease_monthly_mobile_201507-202409.json`
@@ -34,6 +34,19 @@ This project is based on a code example developed by Dr. David W. McDonald for u
    - **Filename:** `rare-disease_monthly_cumulative_201507-202409.json`
    - **Description:** This file combines the sum of all mobile, and desktop data into a single cumulative file, summarizing total views per article.
 
+### Plot Files
+1. **Maximum Average and Minimum Average**
+   - **Filename:** `1_Maximum Average and Minimum Average.png`
+   - **Description:** Time series showing the articles with the highest and lowest average page requests for desktop and mobile access. Includes four lines: max and min for both desktop and mobile.
+
+2. **Top 10 Peak Page Views**
+   - **Filename:** `2_Top 10 Peak Page Views.png`
+   - **Description:** Time series for the top 10 articles by peak page views, with 10 lines each for desktop and mobile access, showing trends for the month with the highest views.
+
+3. **Fewest Months of Data**
+   - **Filename:** `3_Fewest Months of Data.png`
+   - **Description:** Time series for the 10 articles with the fewest months of available data, showing limited page view data for desktop and mobile access.
+
 ### Data Schema and Description
 
 The dataset consists of a DataFrame 7 columns. Below is a description of each column:
@@ -44,7 +57,6 @@ The dataset consists of a DataFrame 7 columns. Below is a description of each co
 | `article`    | Page title in URL-encoded format       |
 | `granularity`| Time interval between data points    |
 | `timestamp`  | The timestamp for the data point, indicating the month of traffic data. |
-| `access`     |Method of access (e.g., "desktop", "mobile-web", "mobile-app").                  |
 | `agent`      | Type of user agent|
 | `views`      | The number of views recorded for the article during the specified month. |
 
