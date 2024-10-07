@@ -4,7 +4,7 @@
 The goal of this project is to construct, analyze, and publish a dataset of monthly article traffic for a select set of pages from English Wikipedia, covering the period from July 1, 2015, through September 30, 2024. This analysis aims to provide insights into trends in article views, particularly related to rare diseases.
 
 ### License
-This project utilizes data from the Wikimedia Foundation and adheres to their [Terms of Use](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use). The dataset created is made available under the [Creative Commons CC-BY license](https://creativecommons.org/licenses/by/4.0/), which permits sharing and adaptation of the material as long as appropriate credit is given. 
+This project utilizes data from the Wikimedia Foundation and adheres to their [Terms of Use](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use). The dataset created is made available under the [Creative Commons Attribution-ShareAlike 4.0 International License ("CC BY-SA 4.0")](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 
 The ToU applies to the dataset by ensuring that all data usage respects user privacy and adheres to the ethical guidelines set forth by Wikimedia. This includes proper attribution to the original sources and compliance with any restrictions on data handling and sharing.
 
