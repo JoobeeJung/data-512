@@ -19,6 +19,7 @@ This project is based on a code example developed by Dr. David W. McDonald for u
 *   https://wikimedia.org/api/rest_v1/#/Pageviews%20data
 *   https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html
 
+
 ### Jupyter Notebook
 To reproduce the results, run the Jupyter notebook `wp_article_views_for_rare_diseases.ipynb`. Ensure that the file path for `'rare-diseases_cleaned.AUG.2024.csv'` is correctly set according to your environment.
 
@@ -36,19 +37,6 @@ To reproduce the results, run the Jupyter notebook `wp_article_views_for_rare_di
    - **Filename:** `rare-disease_monthly_cumulative_201507-202409.json`
    - **Description:** This file combines the sum of all mobile, and desktop data into a single cumulative file, summarizing total views per article.
 
-### Plot Files
-1. **Maximum Average and Minimum Average**
-   - **Filename:** `1_Maximum Average and Minimum Average.png`
-   - **Description:** Time series showing the articles with the highest and lowest average page requests for desktop and mobile access. Includes four lines: max and min for both desktop and mobile.
-
-2. **Top 10 Peak Page Views**
-   - **Filename:** `2_Top 10 Peak Page Views.png`
-   - **Description:** Time series for the top 10 articles by peak page views, with 10 lines each for desktop and mobile access, showing trends for the month with the highest views.
-
-3. **Fewest Months of Data**
-   - **Filename:** `3_Fewest Months of Data.png`
-   - **Description:** Time series for the 10 articles with the fewest months of available data, showing limited page view data for desktop and mobile access.
-
 ### Data Schema and Description
 
 The dataset consists of a DataFrame 7 columns. Below is a description of each column:
@@ -63,6 +51,19 @@ The dataset consists of a DataFrame 7 columns. Below is a description of each co
 | `views`      | The number of views recorded for the article during the specified month. |
 
 This schema allows for straightforward analysis of article traffic over time, enabling researchers to track trends and make comparisons across different articles.
+
+### Plot Files
+1. **Maximum Average and Minimum Average**
+   - **Filename:** `1_Maximum Average and Minimum Average.png`
+   - **Description:** Time series showing the articles with the highest and lowest average page requests for desktop and mobile access. Includes four lines: max and min for both desktop and mobile.
+
+2. **Top 10 Peak Page Views**
+   - **Filename:** `2_Top 10 Peak Page Views.png`
+   - **Description:** Time series for the top 10 articles by peak page views, with 10 lines each for desktop and mobile access, showing trends for the month with the highest views.
+
+3. **Fewest Months of Data**
+   - **Filename:** `3_Fewest Months of Data.png`
+   - **Description:** Time series for the 10 articles with the fewest months of available data, showing limited page view data for desktop and mobile access.
 
 
 ### Known Issues or Special Considerations
