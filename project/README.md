@@ -52,7 +52,7 @@ I produced the following visualizations within this analysis:
 - A time series graph comparing fire smoke estimates and AQI estimates for Boise.
 
 ### Step 3: Human-Centered Data Science (HCDS) Analysis
-The next phase of the analysis focuses on how the data can be used to address the impacts of air quality on Boise’s economy and public health. Human-centered data science (HCDS) principles guide the interpretation of the results, ensuring that the findings are relevant to the community’s well-being.
+The next phase of the analysis focuses on using the data to address the impacts of air quality on Boise’s economy. Human-centered data science (HCDS) principles guide the interpretation of the results, ensuring the findings are relevant to the community’s well-being. The selected metrics for this analysis include **GDP**, which considers factors such as **AQI**, **unemployment rates**, and **Micron's stock performance**.
 
 ### Step 4: Correlation and Predictive Modeling
 After conducting exploratory data analysis and visualizations, the next step is to perform a correlation analysis to identify relationships between air quality and economic performance. A polynomial regression model is then used to predict Boise’s GDP, considering factors like AQI, unemployment rates, and Micron’s stock performance. These predictions are used to forecast the city’s economic future under varying air quality conditions.
