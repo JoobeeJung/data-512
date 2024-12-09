@@ -61,10 +61,7 @@ After conducting exploratory data analysis and visualizations, the next step is 
 Using the polynomial regression model and exponential smoothing, projections are made for Boise’s GDP over the next 25 years, incorporating anticipated trends in AQI, unemployment rates, and Micron’s stock prices. The results help predict long-term economic impacts and inform policymakers about potential future economic stability under different environmental scenarios.
 
 ### Step 6: Final Recommendations
-Based on the analysis and model predictions, final recommendations are made for policymakers, businesses, and residents:
-- Policymakers: Strategies to mitigate wildfire impacts and improve air quality management.
-- Residents: Encouraging individual actions to reduce emissions and support sustainability initiatives.
-- Businesses: Recommendations for implementing remote work policies and air filtration systems.
+Based on the analysis and model predictions, final recommendations are made for policymakers, businesses, and residents.
 
 ## API Documentation
 The following APIs were used to gather data for this analysis:
