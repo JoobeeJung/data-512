@@ -100,11 +100,11 @@ To reproduce the results, run each notebook sequentially, ensuring file paths ar
    - **Description:** A combined view of fire occurrences, smoke estimate, and AQI data over time, showing correlations between wildfire smoke estimate and AQI data.
 
 4. **Correlation Analysis**
-   - **Filename:** correlation_analysis.png
+   - **Filename:** `correlation_analysis.png`
    - **Description:** A plot shows the relationships between GDP, and air quality, unemployment rates, and Micron's stock performance.
 
 5. **GDP Prediction**
-   - **Filename:** gdp_prediction.png
+   - **Filename:** `gdp_prediction.png`
    - **Description:** A plot forecasts Boise's GDP over the next 25 years, factoring in air quality, unemployment rates, and Micron's stock performance, demonstrating the long-term economic impact of air quality.
 
    
